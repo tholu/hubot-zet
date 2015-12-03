@@ -2,7 +2,7 @@
 
 A ZET Menu service for Hubots (http://www.techno-z.at/ihr-top-standort-techno-z/betriebsrestaurant-salzburg/).
 
-[![Build Status](https://travis-ci.org/jjasghar/hubot-zet.png?branch=master)](https://travis-ci.org/jjasghar/hubot-zet)
+[![Build Status](https://travis-ci.org/tholu/hubot-zet.png?branch=master)](https://travis-ci.org/tholu/hubot-zet)
 
 See [`src/zet.coffee`](src/zet.coffee) for full documentation.
 
