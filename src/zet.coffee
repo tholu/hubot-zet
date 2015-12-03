@@ -11,16 +11,26 @@
 #   tholu
 #
 
+cheerio = require('cheerio')
 
 module.exports = (robot) ->
 
   robot.respond /zet\b/i, (msg) ->
-      showZetMenu(msg, 1)
+    url = 'http://blog.techno-z.at/'
 
-    showZetMenu = (msg, num) ->
-      if true
-         # menu of this week
-         msg.send "https://c1.staticflickr.com/9/8754/16283894793_4a1889f612_b.jpg"
-       else
-         msg.send "D'oh! ZET Menu not found. Go to De Cesare or Bistro."
+    robot.http(url).get() (err, res, body) ->
+      switch res.statusCode
+        when 200
+          # parse response
+          $ = cheerio.load(body)
+          menu = []
+          $('div.weekly-plan div h2 span.date-stamp').each (i) ->
+            menu.push $(this).text()
+          $('div.weekly-plan div ul.group li span.data').each (i) ->
+            menu.push $(this).text()
+          msg.send menu.join(' - ')
+        when 404
+          msg.send "Page not found: "+url
+        else
+          msg.send "Unable to process your request and we're not sure why :("
 
