@@ -1,42 +1,40 @@
-# Hubot: hubot-thesimpsons
+# Hubot: hubot-zet
 
-A Simpsons Quote and Image Generator for Hubots.
+A ZET Menu service for Hubots (http://www.techno-z.at/ihr-top-standort-techno-z/betriebsrestaurant-salzburg/).
 
-[![Build Status](https://travis-ci.org/jjasghar/hubot-thesimpsons.png?branch=master)](https://travis-ci.org/jjasghar/hubot-thesimpsons)
+[![Build Status](https://travis-ci.org/jjasghar/hubot-zet.png?branch=master)](https://travis-ci.org/jjasghar/hubot-zet)
 
-See [`src/thesimpsons.coffee`](src/thesimpsons.coffee) for full documentation.
+See [`src/zet.coffee`](src/zet.coffee) for full documentation.
 
 ## Installation
 
-Add **hubot-thesimpsons** to your `package.json` file:
+Add **hubot-zet** to your `package.json` file:
 
 ```json
 "dependencies": {
   "hubot": ">= 2.5.1",
   "hubot-scripts": ">= 2.4.2",
-  "hubot-thesimpsons": ">= 0.0.0"
+  "hubot-zet": ">= 0.0.0"
 }
 ```
 
-Add **hubot-thesimpsons** to your `external-scripts.json`:
+Add **hubot-zet** to your `external-scripts.json`:
 
 ```json
-["hubot-thesimpsons"]
+["hubot-zet"]
 ```
 
-Run `npm install hubot-thesimpsons`
+Run `npm install hubot-zet`
 
-Add **hubot-thesimpsons** to your `external-scripts.json`:
+Add **hubot-zet** to your `external-scripts.json`:
 
 ```json
-["hubot-thesimpsons"]
+["hubot-zet"]
 ```
 
 ## Sample Interaction
 
 ```
-user1>> hubot simpsons image me
-hubot>> http://i.imgur.com/mKzawbN.png
-user1>> hubot simpsons quote me
-hubot>> "Good thing I drink plenty of… malk?"
+user1>> hubot zet
+hubot>> https://c1.staticflickr.com/9/8754/16283894793_4a1889f612_b.jpg
 ```
