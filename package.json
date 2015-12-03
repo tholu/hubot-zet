@@ -2,7 +2,7 @@
   "name": "hubot-zet",
   "description": "A ZET Menu service for Hubots",
   "version": "1.0.0",
-  "author": "Thomas Lutz <lutz@symptoma.com>",
+  "author": "Thomas Lutz <thomaslutz.de@gmail.com>",
   "license": "MIT",
   "keywords": [
     "hubot",
