@@ -1,6 +1,6 @@
 # Hubot: hubot-zet
 
-A ZET Menu service for Hubots (http://www.techno-z.at/ihr-top-standort-techno-z/betriebsrestaurant-salzburg/).
+A ZET Menu service for Hubots (http://blog.techno-z.at/).
 
 [![Build Status](https://travis-ci.org/tholu/hubot-zet.png?branch=master)](https://travis-ci.org/tholu/hubot-zet)
 
@@ -36,5 +36,5 @@ Add **hubot-zet** to your `external-scripts.json`:
 
 ```
 user1>> hubot zet
-hubot>> https://c1.staticflickr.com/9/8754/16283894793_4a1889f612_b.jpg
+hubot>> 03.12. - Rindsuppe mit Einlage oder eine gebundene Suppe - Gerollte Kalbsbrust mit Gemüsereis €6,80 - Majoranfleisch mit Butternockerln €6,30  - Vegetarische Kartoffel-Pizza €5,70
 ```

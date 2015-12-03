@@ -1,7 +1,7 @@
 {
   "name": "hubot-zet",
   "description": "A ZET Menu service for Hubots",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Thomas Lutz <thomaslutz.de@gmail.com>",
   "license": "MIT",
   "keywords": [
