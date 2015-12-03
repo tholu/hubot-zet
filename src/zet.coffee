@@ -5,7 +5,7 @@
 #   None
 #
 # Commands:
-#   hubot zet - fetches the menu and outputs the flickr image
+#   hubot zet - fetches the current ZET menu from the Techno-Z blog
 #
 # Author:
 #   tholu
