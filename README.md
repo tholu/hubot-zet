@@ -18,12 +18,6 @@ Add **hubot-zet** to your `package.json` file:
 }
 ```
 
-Add **hubot-zet** to your `external-scripts.json`:
-
-```json
-["hubot-zet"]
-```
-
 Run `npm install hubot-zet`
 
 Add **hubot-zet** to your `external-scripts.json`:
