@@ -12,7 +12,7 @@ describe 'zet', ->
     # Set up the room before running the test
     room = helper.createRoom()
     do nock.disableNetConnect
-    nock('http://blog.techno-z.at')
+    nock('https://blog.techno-z.at')
       .get('/')
       .reply 200, '<div class="widget weekly-plan"> <img src="http://blog.techno-z.at/wp-content/themes/connect/images/zet.gif" alt="zet" class="zet"> <div data-live-edit-id="2924-post_title-datum-suppentopf-kostlich_bewahrt-a_la_carte-vegetarisch_aktiv-mahl_spezial" data-live-edit-fields="post_title,datum,suppentopf,kostlich_bewahrt,a_la_carte,vegetarisch_aktiv,mahl_spezial" data-live-edit-post_id="2924"> <h2><span class="date-stamp">03.12.</span>Speiseplan für heute</h2> <ul class="group"> <li><span class="title">Suppentopf</span><span class="data">Test</span></li> <li><span class="title">Menü 1</span><span class="data">Test2</span></li></ul> </div> <!-- /Widget -->'
 

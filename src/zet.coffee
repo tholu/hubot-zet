@@ -16,7 +16,7 @@ cheerio = require('cheerio')
 module.exports = (robot) ->
 
   robot.respond /zet\b/i, (msg) ->
-    url = 'http://blog.techno-z.at/'
+    url = 'https://blog.techno-z.at/'
 
     robot.http(url).get() (err, res, body) ->
       switch res.statusCode

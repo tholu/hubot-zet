@@ -21,7 +21,11 @@
   },
   "devDependencies": {
     "chai": "^1.9.2",
+    "grunt": "^1.0.1",
+    "grunt-mocha-test": "^0.13.2",
+    "grunt-release": "^0.14.0",
     "hubot-test-helper": "^1.3.0",
+    "matchdep": "^1.0.1",
     "mocha": "*",
     "nock": "^3.3.2"
   },

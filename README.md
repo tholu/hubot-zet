@@ -1,6 +1,6 @@
 # Hubot: hubot-zet
 
-A ZET Menu service for Hubots (http://blog.techno-z.at/).
+A ZET Menu service for Hubots (https://blog.techno-z.at/).
 
 [![Build Status](https://travis-ci.org/tholu/hubot-zet.png?branch=master)](https://travis-ci.org/tholu/hubot-zet)
 
